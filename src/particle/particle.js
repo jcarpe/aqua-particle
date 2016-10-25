@@ -9,13 +9,15 @@ const Particle = require('particle-api-js');
  */
 const particle = new Particle();
 
+const config = require( '../config/dev.config' );
+
 let token,
 	deviceID;
 
 particle
 	.login({
-		username: '',
-		password: ''
+		username: config.ParticleCredentials.USER,
+		password: config.ParticleCredentials.PASS
 	})
 	.then( ( data ) => {
 		debug( 'API call completed on promise resolve: ', data.body.access_token );

@@ -1,0 +1,24 @@
+{
+  "name": "express-api-boiler",
+  "version": "0.0.1",
+  "description": "A simple boilerplate to get an simple express application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=dev DEBUG=main,particle,api-route,lights-route,test-route,error-handlers nodemon src/app.js",
+    "start:prod": "NODE_ENV=production node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Carpenito",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "helmet": "^2.1.2",
+    "memory-cache": "^0.1.6",
+    "particle-api-js": "^6.0.4"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0"
+  }
+}

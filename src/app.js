@@ -10,6 +10,7 @@ const bodyParser = require( 'body-parser' );
 /**
  * SRC Imports
  */
+const config = require( './config/dev.config' );
 const device = require( './particle/particle' );
 const apiRouter = require( './routers/aqua-api' );
 const errorHandlers = require( './middleware/error-handlers' );
@@ -17,7 +18,7 @@ const errorHandlers = require( './middleware/error-handlers' );
 /**
  * Definitions
  */
-const port = 1337;
+const port = config.EXPRESS_PORT;
 const app = express();
 
 /**
@@ -34,8 +35,8 @@ const app = express();
  */
 app.use( helmet() );
 app.use( compression({
-	level: 9,
-	threshold: '1b'
+	level: config.Compression.LEVEL,
+	threshold: 'config.Compression.THRESHOLD'
 }));
 app.use( bodyParser.urlencoded({
 	extended: true

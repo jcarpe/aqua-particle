@@ -5,12 +5,14 @@ const debug = require( 'debug' )( 'api-route' );
 const express = require( 'express' );
 
 const device = require( '../particle/particle' );
+const loginRouter = require( './login' );
 const testRouter = require( './test' );
 const lightsRouter = require( './lights' );
 const aeratorRouter = require( './aerator' );
 
 const router = express.Router();
 
+router.use( '/login', loginRouter );
 router.use( '/test', testRouter );
 router.use( '/lights', lightsRouter );
 router.use( '/aerator', aeratorRouter );

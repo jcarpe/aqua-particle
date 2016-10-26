@@ -36,7 +36,7 @@ const app = express();
 app.use( helmet() );
 app.use( compression({
 	level: config.Compression.LEVEL,
-	threshold: 'config.Compression.THRESHOLD'
+	threshold: config.Compression.THRESHOLD
 }));
 app.use( bodyParser.urlencoded({
 	extended: true

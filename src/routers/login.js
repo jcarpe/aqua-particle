@@ -25,7 +25,7 @@ router.route( '/' )
 		if ( req.body.username && req.body.password ) {
 			device.login( req.body.username , req.body.password )
 				.then( ( data ) => {
-					debug( data );
+					// debug( data );
 				})
 				.catch( ( err ) => {
 					debug( 'login failed' );

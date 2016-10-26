@@ -14,6 +14,11 @@ const config = require( '../config/dev.config' );
 let token,
 	deviceID;
 
+/*
+ * Method that logs into the Particle ecosystem for a particular user
+ * @param {String} username
+ * @param {String} password
+ */
 const login = ( username, password ) => {
 	return new Promise ( ( resolve, reject ) => {
 		particle

@@ -14,19 +14,6 @@ const config = require( '../config/dev.config' );
 let token,
 	deviceID;
 
-// particle
-// 	.login({
-// 		username: config.ParticleCredentials.USER,
-// 		password: config.ParticleCredentials.PASS
-// 	})
-// 	.then( ( data ) => {
-// 		debug( 'API call completed on promise resolve: ', data.body.access_token );
-// 		token = data.body.access_token;
-// 	})
-// 	.catch( err => {
-// 		debug( 'could not log in' );
-// 	});
-
 const login = ( username, password ) => {
 	return new Promise ( ( resolve, reject ) => {
 		particle

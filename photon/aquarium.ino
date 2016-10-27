@@ -1,3 +1,9 @@
+/**
+ * Photon Code for aqua-particle project. These are simple binary changes for
+ * enabling/disabling pieces of equipment.
+ *
+ * TODO: ability to read current status (on/off) of a piece of equipment
+ */
 
 #define TEST_INDICATOR D7
 #define LIGHTS D6

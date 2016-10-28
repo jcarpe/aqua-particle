@@ -1,9 +1,3 @@
-/**
- * Photon Code for aqua-particle project. These are simple binary changes for
- * enabling/disabling pieces of equipment.
- *
- * TODO: ability to read current status (on/off) of a piece of equipment
- */
 
 #define TEST_INDICATOR D7
 #define LIGHTS D6
@@ -18,17 +12,22 @@ void setup ( void ) {
     pinMode( LIGHTS, OUTPUT );
     pinMode( AERATOR, OUTPUT );
     
-    Particle.subscribe( "aquarium_toggle_on_test_indicator", testToggleOnHandler, MY_DEVICES );
-    Particle.subscribe( "aquarium_toggle_off_test_indicator", testToggleOffHandler, MY_DEVICES );
-    Particle.subscribe( "aquarium_on_aerator", aeratorOnHandler, MY_DEVICES );
-    Particle.subscribe( "aquarium_off_aerator", aeratorOffHandler, MY_DEVICES );
-    Particle.subscribe( "aquarium_on_aqua_lights", lightOnHandler, MY_DEVICES );
-    Particle.subscribe( "aquarium_off_aqua_lights", lightOffHandler, MY_DEVICES );
+    Particle.subscribe( "aquarium_toggle_on_test_indicator", testToggleOnHandler );
+    Particle.subscribe( "aquarium_toggle_off_test_indicator", testToggleOffHandler );
+    Particle.subscribe( "aquarium_on_aerator", aeratorOnHandler );
+    Particle.subscribe( "aquarium_off_aerator", aeratorOffHandler );
+    Particle.subscribe( "aquarium_on_aqua_lights", lightOnHandler );
+    Particle.subscribe( "aquarium_off_aqua_lights", lightOffHandler );
 }
 
-void loop ( void ) {}
+void loop ( void ) {
+    if ( Particle.connected() == false ) {
+        Particle.connect();
+    }
+}
 
 void testToggleOnHandler  ( const char *event, const char *data ) {
+    Serial.println( "toggle on test lamp indicator" );
     digitalWrite( TEST_INDICATOR, HIGH );
 }
 

@@ -15,7 +15,7 @@ const device = require( '../particle/particle' );
  */
 const router = express.Router();
 
-router.route( '/lamp' )
+router.route( '/toggle' )
 
 	.post( ( req, res ) => {
 		let msg = {

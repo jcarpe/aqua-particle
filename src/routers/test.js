@@ -15,6 +15,14 @@ const device = require( '../particle/particle' );
  */
 const router = express.Router();
 
+let testLampStream;
+
+device.getEventStream()
+
+	.then( ( stream ) => {
+		testLampStream = stream;
+	});
+
 router.route( '/toggle' )
 
 	.post( ( req, res ) => {
@@ -31,6 +39,21 @@ router.route( '/toggle' )
 		}
 
 		res.status( 200 ).json( msg ).send();
+	});
+
+router.route( '/status' )
+	
+	.get( ( req, res ) => {
+		let msg = {
+			message: ''
+		};
+
+		testLampStream.on( events.TEST_LAMP_POST_STATUS, ( data ) => {
+			// status data is returned here
+			
+		});
+
+		device.publishEvent( events.TEST_LAMP_GET_STATUS );
 	});
 
 module.exports = router;

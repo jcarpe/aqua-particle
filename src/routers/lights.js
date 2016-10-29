@@ -10,6 +10,14 @@ const express = require( 'express' );
 const events = require( '../constants/particle-events' );
 const device = require( '../particle/particle' );
 
+let lightStream;
+
+// get event stream for 
+device.getEventStream()
+.then( ( stream ) => {
+	lightStream = stream;
+});
+
 /**
  * Definitions
  */
@@ -31,6 +39,15 @@ router.route( '/toggle' )
 		}
 
 		res.status( 200 ).json( msg ).send();
+	});
+
+router.route( '/status' )
+
+	.get( ( req, res ) => {
+		lightStream.on( events.AERATOR_POST_STATUS, ( data ) => {
+
+		});
+		device.publishEvent( events.AERATOR_GET_STATUS );
 	});
 
 module.exports = router;

@@ -9,6 +9,8 @@ module.exports = {
 	// lights
 	LIGHTS_ON: 'aquarium_on_aqua_lights',
 	LIGHTS_OFF: 'aquarium_off_aqua_lights',
+	LIGHTS_GET_STATUS: 'aqua_lights_get_status',
+	LIGHTS_POST_STATUS: 'aqua_lights_post_status',
 
 	// aerator
 	AERATOR_ON: 'aquarium_on_aerator',

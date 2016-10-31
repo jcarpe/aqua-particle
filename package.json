@@ -19,6 +19,8 @@
     "particle-api-js": "^6.0.4"
   },
   "devDependencies": {
-    "debug": "^2.2.0"
+    "debug": "^2.2.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0"
   }
 }

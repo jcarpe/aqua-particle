@@ -54,3 +54,5 @@ app.use( errorHandlers.clientSideErrors );
 app.listen( port );
 
 debug( 'end points available on port:', port );
+
+module.exports = app;

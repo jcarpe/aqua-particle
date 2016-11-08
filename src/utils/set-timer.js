@@ -19,11 +19,21 @@ let timeSettings = {
 	}
 };
 
+/**
+ * Apply aerator on and off times
+ * @param  {Date} onTimeDt
+ * @param  {Date} offTimeDt
+ */
 const setAeratorTimes = ( onTimeDt, offTimeDt ) => {
 	timeSettings.aerator.on = onTimeDt;
 	timeSettings.aerator.off = offTimeDt;
 };
 
+/**
+ * Apply lights on and off times
+ * @param  {Date} onTimeDt
+ * @param  {Date} offTimeDt
+ */
 const setLightTimes = ( onTimeDt, offTimeDt ) => {
 	timeSettings.lights.on = onTimeDt;
 	timeSettings.lights.off = offTimeDt;

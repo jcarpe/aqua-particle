@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "NODE_ENV=dev DEBUG=main,particle,api-route,login-route,lights-route,test-route,error-handlers nodemon src/app.js",
     "start:prod": "NODE_ENV=production node src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Joe Carpenito",
   "license": "ISC",
@@ -19,6 +19,8 @@
     "particle-api-js": "^6.0.4"
   },
   "devDependencies": {
-    "debug": "^2.2.0"
+    "debug": "^2.2.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0"
   }
 }

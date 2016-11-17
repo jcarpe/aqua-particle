@@ -50,7 +50,12 @@ router.route( '/set' )
 		};
 
 		if ( req.body.aeratorTimes ) {
-			msg.message = req.body.aeratorTimes;
+			timer.setAeratorTimes(
+				new Date(req.body.aeratorTimes.on),
+				new Date(req.body.aeratorTimes.off)
+			);
+
+			msg.message = 'call set aerator times';
 		} else {
 			msg.message = 'Poop';
 		}

@@ -9,6 +9,7 @@ const express = require( 'express' );
  */
 const events = require( '../constants/particle-events' );
 const device = require( '../particle/particle' );
+const timer = require( '../utils/set-timer' );
 
 let aeratorStream;
 
@@ -36,6 +37,22 @@ router.route( '/toggle' )
 		} else {
 			device.publishEvent( events.AERATOR_OFF );
 			msg.message = `${events.AERATOR_OFF} particle event published`;
+		}
+
+		res.status( 200 ).json( msg ).send();
+	});
+
+router.route( '/set' )
+	
+	.post( ( req, res ) => {
+		let msg = {
+			message: ''
+		};
+
+		if ( req.body.aeratorTimes ) {
+			msg.message = req.body.aeratorTimes;
+		} else {
+			msg.message = 'Poop';
 		}
 
 		res.status( 200 ).json( msg ).send();

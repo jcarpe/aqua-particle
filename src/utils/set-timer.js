@@ -9,13 +9,13 @@ const debug = require( 'debug' )( 'set-timer' );
 let timeSettings = {
 	aerator: {
 		enabled: false,
-		on: null,
-		off: null
+		on: new Date(),
+		off: new Date()
 	},
 	lights: {
 		enabled: false,
-		on: null,
-		off: null
+		on: new Date(),
+		off: new Date()
 	}
 };
 
@@ -59,3 +59,8 @@ let checkInterval = setInterval( () => {
 		// turn aerator off
 	}
 }, 60000 );
+
+module.exports = {
+	setAeratorTimes: setAeratorTimes,
+	setLightTimes: setLightTimes
+};

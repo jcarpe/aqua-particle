@@ -27,6 +27,14 @@ let timeSettings = {
 const setAeratorTimes = ( onTimeDt, offTimeDt ) => {
 	timeSettings.aerator.on = onTimeDt;
 	timeSettings.aerator.off = offTimeDt;
+
+	debug( 'set aerator times in set timer' );
+};
+
+const enableAerator = ( enabled ) => {
+	timeSettings.aerator.enabled = enabled;
+
+	debug( 'enable aerator' );
 };
 
 /**
@@ -39,11 +47,18 @@ const setLightTimes = ( onTimeDt, offTimeDt ) => {
 	timeSettings.lights.off = offTimeDt;
 };
 
+const enableLights = ( enabled ) => {
+	timeSettings.lights.enabled = enabled;
+};
+
 /**
  * Check once per minute against the timer settings
  */
 let checkInterval = setInterval( () => {
 	let currentTime = new Date();
+
+	debug( currentTime );
+	debug( timeSettings.aerator.on );
 
 	if (
 		currentTime.getHours() >= timeSettings.aerator.on.getHours() &&
@@ -51,16 +66,19 @@ let checkInterval = setInterval( () => {
 		timeSettings.aerator.enabled
 	) {
 		// turn aerator on
+		debug( 'turn on the aerator' );
 	} else if (
 		currentTime.getHours() >= timeSettings.aerator.off.getHours() &&
 		currentTime.getMinutes() >= timeSettings.aerator.off.getMinutes() &&
 		timeSettings.aerator.enabled
 	) {
 		// turn aerator off
+		debug( 'turn off the aerator' );
 	}
-}, 60000 );
+}, 1000 );
 
 module.exports = {
 	setAeratorTimes: setAeratorTimes,
+	enableAerator: enableAerator,
 	setLightTimes: setLightTimes
 };

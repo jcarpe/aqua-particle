@@ -4,7 +4,7 @@
   "description": "A simple boilerplate to get an simple express application up and running.",
   "main": "index.js",
   "scripts": {
-    "start:dev": "NODE_ENV=dev DEBUG=main,particle,api-route,login-route,lights-route,test-route,error-handlers nodemon src/app.js",
+    "start:dev": "NODE_ENV=dev DEBUG=main,particle,api-route,login-route,lights-route,aerator-route,test-route,error-handlers,set-timer nodemon src/app.js",
     "start:prod": "NODE_ENV=production node src/app.js",
     "test": "mocha"
   },

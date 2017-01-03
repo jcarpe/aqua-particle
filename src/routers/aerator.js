@@ -16,9 +16,9 @@ let aeratorTimer = new Timer();
 
 // get event stream for 
 device.getEventStream()
-.then( ( stream ) => {
-	aeratorStream = stream;
-});
+	.then( ( stream ) => {
+		aeratorStream = stream;
+	});
 
 /**
  * Definitions

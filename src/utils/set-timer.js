@@ -54,7 +54,7 @@ class Timer {
 	};
 
 	checkIsOn () {
-		// return this.config.isOn;
+		return this.config.isOn;
 	};	
 
 };

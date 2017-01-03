@@ -68,7 +68,7 @@ router.route( '/status' )
 
 	.get( ( req, res ) => {
 		aeratorStream.on( events.AERATOR_POST_STATUS, ( data ) => {
-
+			// get the status from the aerator hardware (particle event)
 		});
 		device.publishEvent( events.AERATOR_GET_STATUS );
 	});

@@ -3,49 +3,59 @@
  */
 const debug = require( 'debug' )( 'set-timer' );
 
-/**
- * Definitions
- */
-let timeSettings = {
-	aerator: {
-		enabled: false,
-		on: null,
-		off: null
-	},
-	lights: {
-		enabled: false,
-		on: null,
-		off: null
+class Timer {
+
+	constructor () {
+		this.config = {
+			onTime: null,
+			offTime: null,
+			isOn: false,
+			intervalTime: 1000
+		};
+
+		this.checkInterval = setInterval( () => {
+			let currentTime = new Date();
+
+			if ( this.config.onTime && this.config.offTime ) {
+
+				if (
+					currentTime.getHours() >= this.config.onTime.getHours() &&
+					currentTime.getMinutes() >= this.config.onTime.getMinutes() &&
+					currentTime.getHours() <= this.config.offTime.getHours() &&
+					currentTime.getMinutes() < this.config.offTime.getMinutes() &&
+					!this.config.isOn
+				) {
+					this.config.isOn = true;
+					debug( 'turn on the timer' );
+				}
+				else if (
+					(
+						(
+							currentTime.getHours() >= this.config.offTime.getHours() &&
+							currentTime.getMinutes() >= this.config.offTime.getMinutes()
+						) || (
+							currentTime.getHours() <= this.config.onTime.getHours() &&
+							currentTime.getMinutes() < this.config.onTime.getMinutes()
+						)
+					) &&
+					this.config.isOn
+				) {
+					this.config.isOn = false;
+					debug( 'turn off the timer' );
+				}
+			}
+		}, this.config.intervalTime);
 	}
+
+	setTimes ( onTimeDt, offTimeDt ) {
+		this.config.onTime = onTimeDt;
+		this.config.offTime = offTimeDt;
+	};
+
+	checkIsOn () {
+		return this.config.isOn;
+	};	
+
 };
 
-const setAeratorTimes = ( onTimeDt, offTimeDt ) => {
-	timeSettings.aerator.on = onTimeDt;
-	timeSettings.aerator.off = offTimeDt;
-};
-
-const setLightTimes = ( onTimeDt, offTimeDt ) => {
-	timeSettings.lights.on = onTimeDt;
-	timeSettings.lights.off = offTimeDt;
-};
-
-/**
- * Check once per minute against the timer settings
- */
-let checkInterval = setInterval( () => {
-	let currentTime = new Date();
-
-	if (
-		currentTime.getHours() >= timeSettings.aerator.on.getHours() &&
-		currentTime.getMinutes() >= timeSettings.aerator.on.getMinutes() &&
-		timeSettings.aerator.enabled
-	) {
-		// turn aerator on
-	} else if (
-		currentTime.getHours() >= timeSettings.aerator.off.getHours() &&
-		currentTime.getMinutes() >= timeSettings.aerator.off.getMinutes() &&
-		timeSettings.aerator.enabled
-	) {
-		// turn aerator off
-	}
-}, 60000 );
+module.exports = Timer;

@@ -17,7 +17,6 @@ class Timer {
 			let currentTime = new Date();
 
 			if ( this.config.onTime && this.config.offTime ) {
-				debug( this.config.onTime, currentTime );
 
 				if (
 					currentTime.getHours() >= this.config.onTime.getHours() &&
@@ -27,7 +26,7 @@ class Timer {
 					!this.config.isOn
 				) {
 					this.config.isOn = true;
-					debug( 'turn on the aerator' );
+					debug( 'turn on the timer' );
 				}
 				else if (
 					(
@@ -42,7 +41,7 @@ class Timer {
 					this.config.isOn
 				) {
 					this.config.isOn = false;
-					debug( 'turn off the aerator' );
+					debug( 'turn off the timer' );
 				}
 			}
 		}, this.config.intervalTime);

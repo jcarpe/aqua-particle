@@ -24,14 +24,12 @@ class Timer {
 				) {
 					
 					this.config.isOn = true;
-					debug( 'turn on the timer' );
 				}
 				else if (
 					currentTime.getTime() > this.config.offTime.getTime() &&
 					this.config.isOn
 				) {
 					this.config.isOn = false;
-					debug( 'turn off the timer' );
 				}
 			}
 		}, this.config.intervalTime);
@@ -40,7 +38,6 @@ class Timer {
 	setTimes ( onTimeDt, offTimeDt ) {
 		this.config.onTime = onTimeDt;
 		this.config.offTime = offTimeDt;
-		debug( 'timer set times' )
 	};
 
 	checkIsOn () {

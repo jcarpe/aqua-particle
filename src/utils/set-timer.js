@@ -19,29 +19,17 @@ class Timer {
 			if ( this.config.onTime && this.config.offTime ) {
 
 				if (
-					currentTime.getHours() >= this.config.onTime.getHours() &&
-					currentTime.getMinutes() >= this.config.onTime.getMinutes() &&
-					currentTime.getHours() <= this.config.offTime.getHours() &&
-					currentTime.getMinutes() < this.config.offTime.getMinutes() &&
+					currentTime.getTime() > this.config.onTime.getTime() &&
 					!this.config.isOn
 				) {
+					
 					this.config.isOn = true;
-					debug( 'turn on the timer' );
 				}
 				else if (
-					(
-						(
-							currentTime.getHours() >= this.config.offTime.getHours() &&
-							currentTime.getMinutes() >= this.config.offTime.getMinutes()
-						) || (
-							currentTime.getHours() <= this.config.onTime.getHours() &&
-							currentTime.getMinutes() < this.config.onTime.getMinutes()
-						)
-					) &&
+					currentTime.getTime() > this.config.offTime.getTime() &&
 					this.config.isOn
 				) {
 					this.config.isOn = false;
-					debug( 'turn off the timer' );
 				}
 			}
 		}, this.config.intervalTime);

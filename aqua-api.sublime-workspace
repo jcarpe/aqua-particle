@@ -1,0 +1,1554 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"light",
+				"lightTimer"
+			],
+			[
+				"get",
+				"getPlugs"
+			],
+			[
+				"Enga",
+				"Engagement"
+			],
+			[
+				"Ana",
+				"AnalyticsSlide"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"set",
+				"setAeratorTimes"
+			],
+			[
+				"test",
+				"testLampStream"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"wp",
+				"wp_posts"
+			],
+			[
+				"lo",
+				"log\tconsole"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"pos",
+				"postBatch"
+			],
+			[
+				"default",
+				"defaultBatchSize"
+			],
+			[
+				"tile",
+				"tileProps"
+			],
+			[
+				"filter",
+				"filteredTiles"
+			],
+			[
+				"skull",
+				"skullPixels"
+			],
+			[
+				"pixel",
+				"pixelsID"
+			],
+			[
+				"window",
+				"windowWidth"
+			],
+			[
+				"offSet",
+				"offSetAmount"
+			],
+			[
+				"const",
+				"const"
+			],
+			[
+				"fetch",
+				"fetchObj"
+			],
+			[
+				"wp_",
+				"wp_video_posts"
+			],
+			[
+				"curr",
+				"current"
+			],
+			[
+				"menuItems",
+				"menuItemsWithOutChildren"
+			],
+			[
+				"menuItemsWi",
+				"menuItemsWithChildren"
+			],
+			[
+				"b",
+				"better_featured_image"
+			],
+			[
+				"st",
+				"state"
+			],
+			[
+				"display",
+				"displayTiles"
+			],
+			[
+				"retrieve",
+				"retrieveAllData"
+			],
+			[
+				"tilePer",
+				"tilesPerPage"
+			],
+			[
+				"data",
+				"data_cache"
+			],
+			[
+				"da",
+				"data_cache"
+			],
+			[
+				"API",
+				"API_CACHE"
+			],
+			[
+				"results",
+				"AnalyticsResult.SizeLimitReached"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"pull",
+				"pullOutRendered"
+			],
+			[
+				"bett",
+				"betterFeaturedObj"
+			],
+			[
+				"author",
+				"authorInfo"
+			],
+			[
+				"base",
+				"basePromise"
+			],
+			[
+				"releva",
+				"relevantJuice"
+			],
+			[
+				"is",
+				"isListFormat"
+			],
+			[
+				"boolean",
+				"boolean"
+			],
+			[
+				"cnsole",
+				"console.log"
+			],
+			[
+				"enhance",
+				"enhance_categories"
+			],
+			[
+				"convert",
+				"convertPostStructure"
+			],
+			[
+				"component",
+				"componentWillMount\tLife Cycle Method"
+			],
+			[
+				"status",
+				"statusCheck"
+			],
+			[
+				"stat",
+				"statusCheck"
+			],
+			[
+				"readALl",
+				"readAllPosts"
+			],
+			[
+				"access",
+				"accessibleShownItems"
+			],
+			[
+				"acc",
+				"accessibleShownItems"
+			],
+			[
+				"current",
+				"currentItem"
+			],
+			[
+				"menu",
+				"menuItemsWithChildren"
+			],
+			[
+				"console",
+				"console.log"
+			],
+			[
+				"global",
+				"globalNavHTML"
+			],
+			[
+				"prev",
+				"prevBizDate"
+			],
+			[
+				"the",
+				"theCurrAsOf"
+			],
+			[
+				"characteristi",
+				"characteristicsAsOf"
+			],
+			[
+				"common",
+				"commonDataService"
+			],
+			[
+				"r",
+				"rightClkFunc"
+			],
+			[
+				"right",
+				"rightClkParam"
+			],
+			[
+				"comm",
+				"commonDataService"
+			],
+			[
+				"selec",
+				"selectedDt"
+			],
+			[
+				"expa",
+				"expandState"
+			],
+			[
+				"tweet",
+				"tweetIndex"
+			],
+			[
+				"divided",
+				"dividendsAsOfDate"
+			],
+			[
+				"route",
+				"routeUpdate"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"benchmark",
+				"benchmarkArr"
+			],
+			[
+				"diffe",
+				"differenceArr"
+			],
+			[
+				"account",
+				"accountArr"
+			],
+			[
+				"bench",
+				"benchmarkArrExpanded"
+			],
+			[
+				"curre",
+				"currentVehicle"
+			],
+			[
+				"store",
+				"storedSession"
+			],
+			[
+				"selectedClass",
+				"selectedClassText"
+			],
+			[
+				"updateClass",
+				"updateClassListener"
+			],
+			[
+				"charTableE",
+				"charTableExpended"
+			],
+			[
+				"com",
+				"commonDataService"
+			],
+			[
+				"Unit",
+				"UnitFormats"
+			],
+			[
+				"expandedData",
+				"expandedDataListener"
+			],
+			[
+				"inline",
+				"inline"
+			],
+			[
+				"date",
+				"dateWarning"
+			],
+			[
+				"start",
+				"startDt"
+			],
+			[
+				"indi",
+				"indicatorPos"
+			],
+			[
+				"indicator",
+				"indicatorOffset"
+			],
+			[
+				"quartile",
+				"quartiles"
+			],
+			[
+				"q",
+				"quartileData"
+			],
+			[
+				"gen",
+				"genBarLabels"
+			],
+			[
+				"color",
+				"colorReference"
+			],
+			[
+				"breakdown",
+				"breakdownVals"
+			],
+			[
+				"charTy",
+				"chartType"
+			],
+			[
+				"chartTy",
+				"chartType"
+			],
+			[
+				"chart",
+				"chartDigestTimeout"
+			],
+			[
+				"expense",
+				"expenseRatio"
+			],
+			[
+				"updateMin",
+				"updateMinDateListener"
+			],
+			[
+				"overflow",
+				"overflow-y"
+			],
+			[
+				"stop",
+				"stopListeningForAxisControllerData"
+			],
+			[
+				"select",
+				"selectVehicle"
+			],
+			[
+				"dt",
+				"dtPickType"
+			],
+			[
+				"prod",
+				"prodSeries"
+			],
+			[
+				"historical",
+				"historicalDataLoading"
+			],
+			[
+				"update",
+				"updateCurrDt"
+			],
+			[
+				"tex",
+				"text-overflow"
+			],
+			[
+				"series",
+				"seriesObj"
+			],
+			[
+				"currentS",
+				"currentState"
+			],
+			[
+				"masthead",
+				"mastheadDateSelection"
+			],
+			[
+				"star",
+				"startYear"
+			],
+			[
+				"min",
+				"minPickerDt"
+			],
+			[
+				"breakdo",
+				"breakdownTable"
+			],
+			[
+				"selected",
+				"selectedProduct"
+			],
+			[
+				"Chart",
+				"ChartConfigs"
+			],
+			[
+				"Cha",
+				"ChartConfigs"
+			],
+			[
+				"expanded",
+				"expandedData"
+			],
+			[
+				"render",
+				"renderChart"
+			],
+			[
+				"QUAD",
+				"QUADRANT"
+			],
+			[
+				"updateAv",
+				"updateDataAvailibility"
+			],
+			[
+				"di",
+				"displayFrmt"
+			],
+			[
+				"charT",
+				"charTableData"
+			],
+			[
+				"break",
+				"breakdownTable"
+			],
+			[
+				"curren",
+				"currentPage"
+			],
+			[
+				"load",
+				"loadChunkSize"
+			],
+			[
+				"ta",
+				"tableData"
+			],
+			[
+				"obj",
+				"objP"
+			],
+			[
+				"create",
+				"createSeries"
+			],
+			[
+				"initiali",
+				"initializeChart"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/routers/test.js",
+			"settings":
+			{
+				"buffer_size": 1141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app.js",
+			"settings":
+			{
+				"buffer_size": 1512,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/routers/aerator.js",
+			"settings":
+			{
+				"buffer_size": 1596,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 165.0,
+		"last_filter": "Package Control: insta",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"Markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Mark",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"facade",
+				"Laravel Facade: DB"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"lis pack",
+				"Package Control: List Packages"
+			],
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ss rubn",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"ss asp",
+				"Set Syntax: ASP"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Projects/Sapient/aqua-api",
+		"/Projects/Sapient/aqua-api/src",
+		"/Projects/Sapient/aqua-api/src/routers"
+	],
+	"file_history":
+	[
+		"/Projects/Sapient/aqua-api/.sublimelinterrc",
+		"/Projects/Sapient/aqua-api/src/routers/aerator.js",
+		"/Projects/Sapient/aqua-api/src/utils/set-timer.js",
+		"/Projects/Sapient/aqua-api/src/routers/lights.js",
+		"/Users/jcarpe/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Projects/Sapient/aqua-api/.sublinelinterrc",
+		"/Users/jcarpe/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Projects/Marriott/aries-ui-standards/src/styles/typography/_typography.css",
+		"/Projects/Marriott/aries-ui-standards/developer-guide/sample.html",
+		"/Projects/Marriott/aries-ui-standards/developer-guide/index.html",
+		"/Projects/Marriott/aries-ui-standards/yarn.lock",
+		"/Projects/Marriott/aries-ui-standards/gulpfile.js/config.js",
+		"/Projects/Marriott/aries-ui-standards/package.json",
+		"/Projects/Sapient/postcss-example/test/_postcss-output.js",
+		"/Projects/Sapient/postcss-example/Gulpfile.js",
+		"/Projects/Sapient/postcss-example/tasks/compile-postcss.js",
+		"/Projects/Sapient/postcss-test/Gulpfile.js",
+		"/Projects/Sapient/postcss-test/package.json",
+		"/Projects/Sapient/postcss-test/src/styles/main.css",
+		"/Projects/Sapient/postcss-example/.gitignore",
+		"/Projects/Razorfish/cosmos-demo/assets/Credentials.js",
+		"/private/var/folders/rr/8nm3907x56l3t6spx96pf4s1312phd/T/com.microsoft.Outlook/Outlook Temp/package[2].json",
+		"/Projects/Razorfish/cosmos-demo/src/constants/DemoData/Scene-0/index.js",
+		"/Projects/Razorfish/cosmos-demo/src/constants/DemoData/Analysis.js",
+		"/Projects/Razorfish/cosmos-demo/webpack.config.js",
+		"/Projects/Razorfish/cosmos-demo/src/components/Timeline/Timeline.jsx",
+		"/Projects/Razorfish/cosmos-demo/src/components/AppShowcase/AnalyticsSlide.jsx",
+		"/Projects/Razorfish/cosmos-demo/src/components/AppShowcase/AppShowcase.jsx",
+		"/Projects/Razorfish/cosmos-demo/src/stylesheets/modules/_colors.scss",
+		"/Projects/Razorfish/cosmos-demo/src/stylesheets/components/app-showcase/_analytics-slide.scss",
+		"/Projects/Razorfish/cosmos-demo/src/stylesheets/components/app-showcase/_app-showcase.scss",
+		"/Projects/Razorfish/cosmos-demo/assets/images/analytics/activation.png",
+		"/Projects/Razorfish/cosmos-demo/src/constants/CosmosDemoData.js",
+		"/Projects/Razorfish/cosmos-demo/src/stylesheets/partials/_typography.scss",
+		"/Projects/Razorfish/cosmos-demo/src/components/Timeline/TimelineEpoch.jsx",
+		"/Projects/Razorfish/cosmos-demo/src/components/Hotspots/ClickHotspot.jsx",
+		"/Projects/Razorfish/cosmos-demo/src/components/AppShowcase/EpochSlide.jsx",
+		"/Projects/Razorfish/cosmos-demo/src/constants/DemoData/Epoch-0.js",
+		"/Projects/Razorfish/cosmos-demo/src/components/App.jsx",
+		"/Projects/Razorfish/cosmos-demo/src/constants/DeviceConfigs.js",
+		"/Projects/Razorfish/cosmos-demo/src/reducers/Cosmos.js",
+		"/Projects/Razorfish/cosmos-demo/src/constants/DemoData/Epoch-3.js",
+		"/Projects/Razorfish/cosmos-demo/src/constants/DemoData/Epoch-9.js",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark/_config.yml",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark/layout/index.ejs",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/landscape/layout/index.ejs",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/landscape/layout/page.ejs",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/_config.yml",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark/source/css/style.styl",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/source/projects/Schneider-Electric/index.md",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/source/projects/Philips-PET/index.md",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/source/projects/NU-View/index.md",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/source/projects/Fidelity-Charitable/index.md",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/source/projects/Cast-a-Cup/index.md",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/source/projects/Lenscrafters-Mirror/index.md",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark/layout/project.ejs",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark/layout/_partial/project-head.ejs",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/scaffolds/project.md",
+		"/Projects/Razorfish/cosmos-demo/package.json",
+		"/Projects/Razorfish/cosmos-demo/index.html",
+		"/Projects/Razorfish/cosmos-demo/src/index.jsx",
+		"/Projects/Razorfish/cosmos-demo/src/vendor/foundation-tabs.js",
+		"/Projects/Razorfish/cosmos-demo/src/stylesheets/vendor/foundation-sites/scss/foundation.scss",
+		"/Projects/Razorfish/cosmos-demo/src/vendor/foundation.tabs.js",
+		"/Projects/Razorfish/cosmos-demo/src/stylesheets/vendor/foundation-sites/scss/settings/_settings.scss",
+		"/Projects/Razorfish/cosmos-demo/src/stylesheets/components/app-showcase/_all.scss",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark/layout/_partial/header.ejs",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/package.json",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/source/projects/index.md",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/db.json",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark/layout/_partial/footer.ejs",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark/source/css/_partial/footer.styl",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark/source/css/_partial/header.styl",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/source/Projects/index.md",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/source/about/index.md",
+		"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark/layout/archive.ejs",
+		"/Projects/Razorfish/cosmos-demo/src/stylesheets/vendor/_foundation.scss",
+		"/Projects/Razorfish/cosmos-demo/src/stylesheets/main.scss",
+		"/Projects/Razorfish/cosmos-demo/src/stylesheets/vendor/foundation-sites/scss/_global.scss",
+		"/Projects/Razorfish/cosmos-demo/src/components/NavBar/NavBar.jsx",
+		"/Projects/Razorfish/cosmos-demo/src/components/NavBar/MenuBar.jsx",
+		"/Projects/Razorfish/cosmos-demo/.eslintrc",
+		"/Projects/Razorfish/cosmos-demo/server.js",
+		"/Projects/Sapient/aqua-api/src/utils/List Fonts.jsx",
+		"/Users/jcarpe/Desktop/cosmos-data-proposal.json",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/01-buttons/02-hero-hotspot-button.mustache",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/01-buttons/02-hero-hotspot-button.md",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/css/app.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/01-buttons/02-hero-hotspot-button.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/01-buttons/01-rectangular-link-button.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/01-buttons/01-rectangular-link-button.mustache",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/01-buttons/01-rectangular-link-button.md",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/styleguide/css/styleguide.css",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/01-buttons/00-rectangle-button.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/01-buttons/00-rectangle-button.mustache",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/01-buttons/00-rectangle-button.md",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/02-fonts.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_sass/_styleguide.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/02-fonts.mustache",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/02-fonts.md",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_sass/_fonts.scss",
+		"/Projects/Sapient/edition-node-gulp/package.json",
+		"/Projects/Sapient/edition-node-gulp/patternlab-config.json",
+		"/Projects/Sapient/edition-node-gulp/gulpfile.js",
+		"/Projects/Sapient/edition-node-gulp/README.md",
+		"/Projects/Sapient/edition-node-gulp/source/css/app.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_sass/_variables.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/00-grey-colors.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/00-grey-colors.mustache",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/01-primary-colors.mustache",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/01-primary-colors.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/00-grey-colors.md",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/01-primary-colors.md",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/00-brand-colors.mustache",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/00-brand-colors.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/00-brand-colors.md",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/patternlab-config.json",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/gulpfile.js",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/css/app.css",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_meta/_00-head.mustache",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/index.html",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/public/index.html",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/.editorconfig",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_patterns/00-atoms/00-global/00-colors.md",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/node_modules/patternlab-node/core/lib/starterkit_manager.js",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/node_modules/patternlab-node/core/lib/patternlab.js",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/source/_scss/pattern-scaffolding/styleguide/_pattern-scaffolding.scss",
+		"/Projects/Keurig/UX2.0/keurig-ux-patternlab/package.json"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 218.0,
+		"where_history":
+		[
+			"/Projects/Marriott/aries-ui-standards",
+			"/Projects/Marriott/aries-ui-standards/src",
+			"/Projects/Marriott/aries-ui-standards/gulpfile.js",
+			"/Projects/Razorfish/cosmos-demo/src",
+			"/Users/jcarpe/Desktop/My Stuff/online-self/themes",
+			"/Users/jcarpe/Desktop/My Stuff/online-self/themes/cactus-dark",
+			"/Projects/Razorfish/cosmos-demo/src/stylesheets/vendor/foundation-sites/scss",
+			"/Projects/Keurig/UX2.0/hybris/existing_front_end/hybris/bin/custom/usb2c/usb2cstorefront/web/webroot/_ui",
+			"/Projects/Northeastern/AlumniBlog/common",
+			"/Projects/Northeastern/AlumniBlog",
+			"/Projects/Northeastern/AlumniBlog/common/components",
+			"/Projects/Northeastern/AlumniBlog/server",
+			"/Projects/Northeastern/AlumniBlog/client",
+			"/Projects/Northeastern/AlumniBlog/common",
+			"/Projects/Northeastern/AlumniBlog/server",
+			"/Projects/Northeastern/AlumniBlog/common",
+			"/Projects/Northeastern/AlumniBlog/client",
+			"/Projects/Northeastern/AlumniBlog",
+			"/Projects/Northeastern/AlumniBlog/client",
+			"/Projects/Northeastern/AlumniBlog/common",
+			"/Users/jcarpe/Desktop/CRISP",
+			"/Projects/Northeastern/AlumniBlog",
+			"/Projects/Northeastern/AlumniBlog/common",
+			"/Projects/Northeastern/AlumniBlog/server",
+			"/Projects/Northeastern/AlumniBlog/common",
+			"/Projects/Northeastern/AlumniBlog",
+			"/Projects/Northeastern/wp-install/test-install",
+			"/Projects/Northeastern/wp-install/test-install/wp-content/plugins/rest-api",
+			"/Projects/Northeastern/wp-install/test-install",
+			"/Projects/Northeastern/AlumniBlog/client",
+			"/Projects/Northeastern/AlumniBlog/common",
+			"/Projects/Northeastern/AlumniBlog",
+			"/Projects/Northeastern/AlumniBlog/common/components",
+			"/Projects/Northeastern/wp-install/test-install",
+			"/Projects/Northeastern/AlumniBlog/common",
+			"/Projects/Northeastern/AlumniBlog/server",
+			"/Projects/Northeastern/AlumniBlog/common",
+			"/Projects/Northeastern/AlumniBlog/client",
+			"/Projects/Northeastern/AlumniBlog",
+			"/Projects/Northeastern/AlumniBlog/client/assets/styles",
+			"/Projects/Northeastern/AlumniBlog",
+			"/Projects/Northeastern/AlumniBlog/common",
+			"/Projects/Northeastern/AlumniBlog",
+			"/Projects/Northeastern/wp-install/test-install",
+			"/Projects/Northeastern/wp-install/test-install/wp-content/themes/twentysixteen",
+			"/Projects/Northeastern/wp-install/test-install",
+			"/Projects/Northeastern/wp-install/test-install/wp-content",
+			"/Projects/Northeastern/wp-install/test-install",
+			"/Projects/Northeastern/AlumniBlog",
+			"/Projects/Sapient/react-redux-isomorphic-example",
+			"/Projects/Sapient/node-react-relay-wordpress-boilerplate",
+			"/Projects/LordAbbett/kci/src",
+			"/Projects/Sapient/node-react-relay-wordpress-boilerplate",
+			"/Projects/LordAbbett/kci/src",
+			"/Projects/Sapient/web-pack-boilerplate",
+			"/Projects/LordAbbett/kci/src",
+			"/Projects/LordAbbett/kci/src/components",
+			"/Projects/LordAbbett/kci",
+			"/Projects/LordAbbett/kci/src",
+			"/Projects/LordAbbett/kci/",
+			"/Projects/LordAbbett/kci/src/qliksense",
+			"/Projects/LordAbbett/kci/src",
+			"",
+			"/Projects/LordAbbett/poc/src",
+			"/Projects/LordAbbett/poc",
+			"/Projects/LordAbbett/kci",
+			"/Projects/LordAbbett/kci/src/components",
+			"/Projects/LordAbbett/kci/src",
+			"/Projects/LordAbbett/kci/gulp-tasks",
+			"/Projects/LordAbbett/kci/src",
+			"/Projects/LordAbbett/kci/gulp-tasks",
+			"/Projects/LordAbbett/kci",
+			"/Projects/LordAbbett/kci/gulp-tasks",
+			"/Projects/LordAbbett/kci",
+			"/Projects/LordAbbett/kci/gulp-tasks",
+			"/Projects/fch/prospect_site/fc-prospect/assets/templates",
+			"/Projects/fch/prospect_site/fc-prospect/assets/templates/pages/giving-account",
+			"/Projects/fch/prospect_site/assets",
+			"/Projects/fch/prospect_site/assets/*",
+			"/Projects/fch/prospect_site/assets/scripts",
+			"/Projects/fch/prospect_site/assets/scss",
+			"/Projects/fch/prospect_site",
+			"/Projects/fch/prospect_site/gulp",
+			"/Projects/fch/prospect_site/fc-prospect/assets/templates",
+			"/Projects/fch/prospect_site/gulp/tasks",
+			"/Projects/fch/prospect_site/fc-prospect/assets/templates/components",
+			"/Projects/fch/prospect_site/gulp/tasks",
+			"/Projects/fch/prospect_site/gulp",
+			"/Projects/fch/prospect_site/gulp/tasks",
+			"/Projects/fch/prospect_site/fc-prospect/assets/templates",
+			"/Projects/fch/prospect_site/gulp",
+			"",
+			"../*",
+			"./*",
+			"./gulp/*",
+			"",
+			"/Projects/McGrawHill/MHE_GIT/unitas_cq/unitas-ui,*.js",
+			"/Projects/McGrawHill/MHE_GIT/unitas-ui,*.js",
+			"/Projects/McGrawHill/MHE_GIT/unitas-ui/",
+			"/Projects/McGrawHill/MHE_GIT/unitas-ui",
+			"/Projects/McGrawHill/MHE_GIT/unitas-ui/",
+			"/Projects/McGrawHill/MHE_GIT/*.js",
+			"/Projects/McGrawHill/MHE_GIT/unitas-ui/*.js",
+			"/Projects/McGrawHill/MHE_GIT",
+			"/Projects/McGrawHill/McGrawHillEducation",
+			"/Projects/Phillips/VereosUpdateSVN",
+			"/Projects/Phillips/VereosUpdateSVN/app/scripts",
+			"/Projects/Phillips/VereosUpdateSVN",
+			"",
+			"test/**",
+			"",
+			"test/",
+			"",
+			"test/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"debug",
+			"action",
+			"you performed",
+			"examples",
+			"examples.js",
+			"pre",
+			"index",
+			"index.html",
+			"index",
+			"index.",
+			"contrast",
+			"lint",
+			"audience",
+			"classes",
+			"image",
+			"0",
+			"CosmosDemoData",
+			"data",
+			"EpochSlide",
+			"Find me",
+			"state",
+			"gutter",
+			"setting",
+			"$grid-column-gutter",
+			"Projects",
+			"page",
+			"pages",
+			"Projects",
+			"\";\n",
+			"normalize",
+			"classes",
+			"end",
+			".end",
+			"class",
+			"main",
+			"Main Container",
+			"main",
+			"sg-main",
+			"bold",
+			"10",
+			"seafoam",
+			"brand-",
+			"keurig-brand-colors",
+			"end",
+			"keurig-brand-colors",
+			"index",
+			"pl-style",
+			"loadst",
+			"load",
+			"sk_mobCategoryItem_id__1",
+			"pl-sass",
+			"pl-sas",
+			"plugins",
+			"jquery",
+			"compass",
+			"common",
+			"foundation",
+			"JQuery",
+			"commercewebservicesc",
+			"commercewebservicescom",
+			"error",
+			"webservice",
+			"commerceservices",
+			"commerce",
+			"common",
+			"/Projects/Keurig/UX2.0/hybris/HYBRISCOMM6100P_1-80001896/hybris/bin",
+			"aerator",
+			"AERATOR",
+			"events",
+			"debug",
+			"debug\\",
+			"debug",
+			"[],\n",
+			"debug",
+			"disqus",
+			"title",
+			"LIGHTS",
+			"cat",
+			"serverT",
+			"tiles",
+			"serverTiles",
+			"FEED_GET_BATCH_SUCCESS",
+			"wpEventsData",
+			"dispat",
+			"trigger",
+			"postBatch",
+			"GridViewTileSubcopy",
+			"mule",
+			"sortList",
+			"retrieveIni",
+			"tileParse",
+			"CTA",
+			"footer",
+			"BlogFooter",
+			"style",
+			"sortInitalView",
+			"sortInitialView",
+			"InitialView",
+			"JUICER_API",
+			"fill",
+			"getRandom",
+			"millis()",
+			"Width",
+			"let",
+			"var",
+			"console",
+			"new-cap",
+			"padded-blocks",
+			"max-params",
+			"doc",
+			"valid",
+			"upload_max",
+			"post_max",
+			"max_post",
+			"upload",
+			"get",
+			"heroImageRaw",
+			".value",
+			"t.",
+			"post",
+			"request",
+			"Login",
+			"Logion",
+			"Login",
+			"login",
+			"this.masonry",
+			"edu",
+			"http"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".a-content",
+			"\"a-content\"",
+			"@@a-content"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/routers/test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "src/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1420,
+								1420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/routers/aerator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1377,
+								1377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 118.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 144.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"output.find_results":
+	{
+		"height": 168.0
+	},
+	"pinned_build_system": "",
+	"project": "aqua-api.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ser",
+				"AlumniBlog/server/server.js"
+			],
+			[
+				"envresol",
+				"test/env.resolver.js"
+			],
+			[
+				"store",
+				"lib/env/store.js"
+			],
+			[
+				"testbase",
+				"test/base.js"
+			],
+			[
+				"storejs",
+				"lib/env/store.js"
+			],
+			[
+				"base",
+				"lib/base.js"
+			],
+			[
+				"testenvresolv",
+				"test/env.resolver.js"
+			],
+			[
+				"spawn",
+				"lib/actions/spawn_command.js"
+			],
+			[
+				"actio",
+				"lib/actions/actions.js"
+			],
+			[
+				"envind",
+				"lib/env/index.js"
+			],
+			[
+				"testenv",
+				"test/env.js"
+			],
+			[
+				"testremote",
+				"test/remote.js"
+			],
+			[
+				"spa",
+				"doc/spawn_command.md"
+			],
+			[
+				"actions",
+				"lib/actions/actions.js"
+			],
+			[
+				"test/base",
+				"test/base.js"
+			],
+			[
+				"libenv",
+				"lib/env/index.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"feth",
+				"lib/actions/fetch.js"
+			],
+			[
+				"ssruby",
+				"/C/Users/Simon.Boudrias/AppData/Roaming/Sublime Text 2/Packages/Ruby/do-obj-..-end-(doo).sublime-snippet"
+			],
+			[
+				"jshin",
+				"generator-bbb/.jshintrc"
+			],
+			[
+				"widget",
+				"application/models/widget_model.php"
+			],
+			[
+				"viewpart",
+				"application/views/partner/partner.php"
+			],
+			[
+				"style",
+				"public/css/style.css"
+			],
+			[
+				"modelpart",
+				"application/models/partner_model.php"
+			],
+			[
+				"modelexpre",
+				"application/models/experience_model.php"
+			],
+			[
+				"404",
+				"application/errors/error_404.php"
+			],
+			[
+				"season",
+				"application/models/season_model.php"
+			],
+			[
+				"campa",
+				"application/models/campaign_model.php"
+			],
+			[
+				"controll",
+				"application/controllers/base.php"
+			],
+			[
+				"header",
+				"application/views/layouts/_header.php"
+			],
+			[
+				"viewhome",
+				"application/views/home/home.php"
+			],
+			[
+				"partner",
+				"application/controllers/partner.php"
+			],
+			[
+				"heaer",
+				"application/views/layouts/_header.php"
+			],
+			[
+				"footer",
+				"application/views/layouts/_footer.php"
+			],
+			[
+				"_footer",
+				"application/views/layouts/_footer.php"
+			],
+			[
+				"styl",
+				"public/css/style.css"
+			],
+			[
+				"controllebase",
+				"application/controllers/base.php"
+			],
+			[
+				"controlbase",
+				"application/controllers/base.php"
+			],
+			[
+				"wordscss",
+				"public/widgets/expressions/css/words.css"
+			],
+			[
+				"js",
+				"public/widgets/expressions/js/words.js"
+			],
+			[
+				"handle",
+				"example/vendor/handlebars.js"
+			],
+			[
+				"config",
+				"example/app/config.js"
+			],
+			[
+				"inter",
+				"example/app/views/interface.js"
+			],
+			[
+				"hbs",
+				"example/vendor/hbs.js"
+			],
+			[
+				"emails",
+				"trunk/public/emails/share/email_en.html"
+			],
+			[
+				"applcon",
+				"application/config/config.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Projects/Schneider/EngagementWall/shneidr_engagement_wall.sublime-workspace"
+			],
+			[
+				"mint",
+				"E:\\Projets\\Monnaie Royale Canadienne\\MintChip\\MintChip - monnaie royale.sublime-project"
+			],
+			[
+				"bdc",
+				"E:\\Projets\\BDC\\YoungEntrepreneurAward\\trunk\\BDC - entrepreneur award.sublime-project"
+			],
+			[
+				"inquir",
+				"/E/github/Inquirer.js/Inquirerjs.sublime-project"
+			],
+			[
+				"presse",
+				"/E/Projets/LaPresse/Noël 2013/trunk/presseplus-noel.sublime-project"
+			],
+			[
+				"yo",
+				"/E/github/yo/yo.sublime-project"
+			],
+			[
+				"ski",
+				"/E/Projets/MTO/Microsite-ski/trunk/mto-ski.sublime-project"
+			],
+			[
+				"telu",
+				"/E/Projets/Telus/Holidays/telus_holidays.sublime-project"
+			],
+			[
+				"distin",
+				"/E/Projets/Aeroplan has changed/aeroplan-distinction.sublime-project"
+			],
+			[
+				"mto",
+				"/E/Projets/MTO/Microsite-ski/trunk/mto-ski.sublime-project"
+			],
+			[
+				"dund",
+				"/E/Projets/Aeroplan_Dundas/trunk/aeroplan_dundas.sublime-project"
+			],
+			[
+				"inqui",
+				"/E/github/Inquirer.js/Inquirerjs.sublime-project"
+			],
+			[
+				"airt",
+				"/E/Projets/air-transat/trunk/Welcome.web/air-transat.sublime-project"
+			],
+			[
+				"aer",
+				"/E/Projets/Aeroplan Distinction/aeroplan-distinction.sublime-project"
+			],
+			[
+				"aeropl",
+				"/E/Projets/Aeroplan Milestone/aeroplan_milestone.sublime-project"
+			],
+			[
+				"form",
+				"/E/formations/JavaScript MVC (Backbone)/formation-backbone.sublime-project"
+			],
+			[
+				"layout",
+				"/E/github/backbone.layoutmanager/backbone.LayoutManager.sublime-project"
+			],
+			[
+				"airtr",
+				"/E/Projets/air-transat/trunk/Welcome.web/air-transat.sublime-project"
+			],
+			[
+				"air",
+				"/E/Projets/air-transat/trunk/Welcome.web/air-transat.sublime-project"
+			],
+			[
+				"air tr",
+				"/E/Projets/air-transat/trunk/Welcome.web/air-transat.sublime-project"
+			],
+			[
+				"gm",
+				"/E/Projets/GMX/Bannieres PressePlus/GM_bannieres.sublime-project"
+			],
+			[
+				"conf",
+				"/C/Users/Simon.Boudrias/pc_config.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"\"\": function (a)"
+			]
+		],
+		"width": 1237.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 341.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

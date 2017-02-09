@@ -12,9 +12,9 @@ const device = require( '../particle/particle' );
 const Timer = require( '../utils/set-timer' );
 
 let aeratorStream;
-let aeratorTimer = new Timer();
+let aeratorTimer = new Timer( 'aerator' );
 
-// get event stream for 
+// get event stream for
 device.getEventStream()
 	.then( ( stream ) => {
 		aeratorStream = stream;
@@ -44,7 +44,7 @@ router.route( '/toggle' )
 	});
 
 router.route( '/set' )
-	
+
 	.post( ( req, res ) => {
 		let msg = {
 			message: ''

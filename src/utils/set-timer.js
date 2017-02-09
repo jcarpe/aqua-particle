@@ -22,7 +22,7 @@ class Timer {
 					currentTime.getTime() > this.config.onTime.getTime() &&
 					!this.config.isOn
 				) {
-					
+
 					this.config.isOn = true;
 				}
 				else if (
@@ -38,12 +38,12 @@ class Timer {
 	setTimes ( onTimeDt, offTimeDt ) {
 		this.config.onTime = onTimeDt;
 		this.config.offTime = offTimeDt;
-	};
+	}
 
 	checkIsOn () {
 		return this.config.isOn;
-	};	
+	}
 
-};
+}
 
 module.exports = Timer;

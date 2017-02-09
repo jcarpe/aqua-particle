@@ -12,9 +12,9 @@ const device = require( '../particle/particle' );
 const Timer = require( '../utils/set-timer' );
 
 let lightStream;
-let lightTimer = new Timer();
+let lightTimer = new Timer( 'lights' );
 
-// get event stream for 
+// get event stream for
 device.getEventStream()
 	.then( ( stream ) => {
 		lightStream = stream;

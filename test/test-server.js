@@ -43,7 +43,7 @@ describe( 'Aqua API', () => {
 				done();
 			});
 	});
-	
+
 	it ( 'should turn the test lamp OFF at /aqua-api/test/toggle POST -> off', ( done ) => {
 		chai.request( server )
 			.post( '/aqua-api/test/toggle' )
